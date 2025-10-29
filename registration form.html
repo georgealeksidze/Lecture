@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სარეგისტრაციო ფორმა</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6e1010;
+            padding: 40px;
+        }
+        form {
+            background-color: #644141;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(226, 220, 220, 0.726);
+        }
+        h1 {
+            text-align: center;
+            color: #e9dddd;
+        }
+        div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #f3eeee;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button[type="submit"] {
+            background-color: #4CAF50;
+        }
+        button[type="reset"] {
+            background-color: #f44336;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="800x600-athletics-logo.jpg" alt="Company Logo" style="max-width: 150px; height: auto;">
+        
+    <h1>სარეგისტრაციო ფორმა</h1>
+
+    <div>
+        <label for="name">სახელი</label>
+        <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="შეიყვანეთ სახელი" 
+            required>
+    </div>
+
+    <div>
+        <label for="lastname">გვარი</label>
+        <input 
+            type="text" 
+            id="lastname" 
+            name="lastname" 
+            placeholder="შეიყვანეთ გვარი" 
+            required>
+    </div>
+
+    <div>
+        <label for="mobile">მობილურის ნომერი</label>
+        <input 
+            type="tel" 
+            id="mobile" 
+            name="mobile" 
+            placeholder="მობილურის ნომერი" 
+            pattern="[0-9]{9}" 
+            maxlength="9" 
+            required>
+    </div>
+
+    <div>
+        <label for="birthdate">დაბადების თარიღი</label>
+        <input 
+            type="date" 
+            id="birthdate" 
+            name="birthdate" 
+            required>
+    </div>
+
+    <div>
+        <label for="password">პაროლი</label>
+        <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            placeholder="პაროლი" 
+            minlength="8" 
+            required>
+    </div>
+
+    <div>
+        <label for="repeat">გაიმეორე პაროლი</label>
+        <input 
+            type="password" 
+            id="repeat" 
+            name="repeat" 
+            placeholder="გაიმეორე პაროლი" 
+            minlength="8" 
+            required>
+    </div>
+
+    <div style="display: flex; justify-content: space-between;">
+        <button type="submit">გაგზავნა</button>
+        <button type="reset">გასუფთავება</button>
+    </div>
+</form>
+
+</body>
+</html>
