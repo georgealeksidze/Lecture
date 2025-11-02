@@ -1,5 +1,7 @@
 .heading {
    color: red;
+   background-color: cornflowerblue;
+   text-align: center;
 }
 table {
     border: 2px solid black;
@@ -16,34 +18,60 @@ th {
 }
 .monday {
     color: tomato;
+    background-color: #07f313;
+}
+.tuesday {
+    color: #07f313;
+    background-color: brown;
+}
+.wednesday {
+    color: aqua;
+    background-color: black;
+}
+.thursday {
+    color: aliceblue;
+    background-color: blueviolet;
+}
+.saturday {
+    color: aquamarine;
+    background-color: cadetblue;
 }
 .Georgian {
     color: rgb(245, 1, 14);
+    background-color: aqua;
 }
 .math {
     color: #07f313;
+    background-color: black;
 }
 .geography {
     color: orange;
+    background-color: blueviolet;
     }
 .german_language {
     color: magenta;
+    background-color: burlywood;
 }
 .english_language {
     color: yellow;
+    background-color: blue;
 }
 .sport {
     color: black;
+    background-color: blanchedalmond;
 }
 .art {
     color: bisque;
+    background-color: violet;
 }
 .history {
     color: rgb(19, 95, 9) ;
 }
 .general_education {
     color: chartreuse;
+    background-color: brown;
 }
 .tutor {
     color: violet;
+    background-color: cadetblue;
 }
