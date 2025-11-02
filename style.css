@@ -1,27 +1,46 @@
-h1 {
-    color:brown;
-    border-collapse: separate;
-
-}
 table {
-    border: 1px solid rgb(30, 233, 98);
+    border: 2px solid black;
+    border-collapse: collapse;
 }
 tr {
-    
-    border: 1px solid black;
-}
-th {
-    border: 1px solid rgb(241, 28, 28);
+    border: 2px solid black;
 }
 td {
-    border: 1px solid black;
+    border: 2px solid black;
 }
 th {
-    color: rgb(238, 122, 13);
+    border: 2px solid black;
 }
-td {
-    color: blue;
+.monday {
+    color: tomato;
 }
 .Georgian {
     color: rgb(245, 1, 14);
+}
+.math {
+    color: #07f313;
+}
+.geography {
+    color: orange;
+    }
+.german_language {
+    color: magenta;
+}
+.english_language {
+    color: yellow;
+}
+.sport {
+    color: black;
+}
+.art {
+    color: bisque;
+}
+.history {
+    color: rgb(19, 95, 9) ;
+}
+.general_education {
+    color: chartreuse;
+}
+.tutor {
+    color: violet;
 }
